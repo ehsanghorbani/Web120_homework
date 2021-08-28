@@ -1,0 +1,28 @@
+.bg {
+    background-color: rgb(88, 84, 84);
+    width: 1100px;
+   margin: 90px auto;
+    height: 60vh;
+}
+
+.p1 {
+    background-color: red;
+    float: left;
+    width: 20%;
+    height: 150px;
+    margin: 20px;
+}
+.p2 {
+   background-color: blue;
+    float: left;
+    width: 20%;
+    height: 300px;
+    margin: 20px;
+}
+.p3 {
+   background-color: yellow;
+    float: left;
+    width: 20%;
+    height: 150px;
+    margin: 20px;
+}

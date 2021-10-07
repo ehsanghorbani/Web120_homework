@@ -1,0 +1,189 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+   max-width: 1560px;
+   margin: 0 auto;
+}
+
+.p1{
+    background-color: black;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header-container{
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.p2 .p3 {
+    display: flex;
+}
+
+.p2 li {
+    font-size: 18px;
+padding: 0 25px;
+}
+
+.p2 li a {
+    color: white;
+    transition: all .3s;
+}
+
+.p2 li:first-child {
+    padding-right: 0;
+}
+
+.p2 li a {
+    color: white;
+}
+
+.p2 li a:hover {
+    color: red;
+    border-bottom:   2px solid rgb(228, 8, 8);
+}
+
+.p5{
+    min-height: 100vh;
+  background:url('../image/29acb4e48e2b20d6945dfff4654e0ebb.jpg') no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p6 h1 {
+    color: white;
+    font-size: 95px;
+    padding-bottom: 5px;
+    padding-right: 60px;
+}
+.p7 h4{
+    color: white;
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+.p8 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    border: 1px solid white;
+    display: block;
+    height: 50px;
+    padding: 10px 0px;
+}
+
+.p9{
+    background:url('../image/R\ \(5\).jpg') no-repeat center/cover;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+
+.p10 {
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.p11 {
+    color: white;
+    font-size: 30px;
+}
+
+.p12 { 
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, minmax(155,auto));
+    grid-gap: 10px;
+}
+
+.z1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1 {
+    margin-top: 43px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.c2 {
+    background:url('../image/R\ \(6\).jpg') no-repeat center/cover;
+    color: white;
+    font-size: 20px;
+}
+
+.c3 {
+    text-align: center;
+}
+
+.c4 {
+    padding-top: 20px;
+}
+
+ input {
+    padding-right: 10px;
+   font-size: 15px;
+   font-weight: 900;
+}
+
+.c3 .c4 input {
+    border-radius: 3px;
+}
+
+.c5 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 10px 0;
+    border-radius: 6px;
+    width: 20%;
+}
+
+.c6 {
+    background:url('../image/R\ \(7\).jpg') no-repeat center/cover;
+    padding-right: 650px;
+}
+
+.c7 {
+    list-style: none;
+    margin: 10px 30px;
+    display:inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 5, 5);
+    border-radius: 50%;
+}
+
+.c6 li:hover {
+    color: rgb(255, 0, 0);
+    transition: .1s;
+}

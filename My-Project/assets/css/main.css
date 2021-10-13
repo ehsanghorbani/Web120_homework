@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 body {
     direction: rtl;
 }
@@ -23,7 +25,7 @@ a{
    margin: 0 auto;
 }
 
-.p1{
+.header{
     background-color: black;
     padding: 10px 0px;
     position: fixed;
@@ -39,34 +41,39 @@ a{
    align-items: center;
 }
 
-.p2 .p3 {
+.main-navbar .navbar {
     display: flex;
 }
 
-.p2 li {
+.main-navbar li {
     font-size: 18px;
 padding: 0 25px;
 }
 
-.p2 li a {
+.main-navbar li a {
     color: white;
     transition: all .3s;
 }
 
-.p2 li:first-child {
+.main-navbar li:first-child {
     padding-right: 0;
 }
 
-.p2 li a {
+.main-navbar li a {
     color: white;
 }
 
-.p2 li a:hover {
+.main-navbar li a:hover {
     color: red;
     border-bottom:   2px solid rgb(228, 8, 8);
 }
 
-.p5{
+.nav-logo {
+    font-size: 35px;
+    font-family: 'Ephesis', cursive;
+}
+
+.welcome{
     min-height: 100vh;
   background:url('../image/29acb4e48e2b20d6945dfff4654e0ebb.jpg') no-repeat center/cover;
   display: flex;
@@ -74,29 +81,38 @@ padding: 0 25px;
   align-items: center;
 }
 
-.p6 h1 {
+.title h1 {
     color: white;
     font-size: 95px;
     padding-bottom: 5px;
     padding-right: 60px;
+    text-shadow: 0px 5px 10px black;
 }
-.p7 h4{
+.title-h4 h4{
     color: white;
     font-size: 40px;
     padding-right: 20px;
+    text-shadow: 0px 5px 10px black;
 }
 
-.p8 {
+.quick-access {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 100px;
     font-size: 25px;
     border: 1px solid white;
     display: block;
     height: 50px;
     padding: 10px 0px;
+   
 }
 
-.p9{
+.quick-access a:hover {
+    color: rgb(255, 0, 0);
+    transition: .1s;
+    border-bottom: 1px solid red;
+}
+
+.Description {
     background:url('../image/R\ \(5\).jpg') no-repeat center/cover;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -105,17 +121,19 @@ padding: 0 25px;
 }
 
 
-.p10 {
-    color: white;
-    border-bottom: 1px solid black;
-}
 
-.p11 {
+
+.Explanation {
     color: white;
     font-size: 30px;
+ 
 }
 
-.p12 { 
+.fonts {
+    font-family: 'Ephesis', cursive;
+}
+
+.menu { 
     padding-top: 10px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -123,29 +141,25 @@ padding: 0 25px;
     grid-gap: 10px;
 }
 
-.z1 {
-    display: flex;
-    justify-content: space-between;
-}
 
-.c1 {
+.fruits {
     margin-top: 43px;
     color: white;
     font-size: 30px;
     text-align: center;
 }
 
-.c2 {
+.Order {
     background:url('../image/R\ \(6\).jpg') no-repeat center/cover;
     color: white;
     font-size: 20px;
 }
 
-.c3 {
+.text-align {
     text-align: center;
 }
 
-.c4 {
+.form {
     padding-top: 20px;
 }
 
@@ -155,11 +169,11 @@ padding: 0 25px;
    font-weight: 900;
 }
 
-.c3 .c4 input {
+.text-align .form input {
     border-radius: 3px;
 }
 
-.c5 {
+.form-buttom {
     margin-bottom: 20px;
     margin-top: 50px;
     padding: 10px 0;
@@ -167,23 +181,23 @@ padding: 0 25px;
     width: 20%;
 }
 
-.c6 {
+.share {
     background:url('../image/R\ \(7\).jpg') no-repeat center/cover;
     padding-right: 650px;
 }
 
-.c7 {
+.apps {
     list-style: none;
-    margin: 10px 30px;
+    margin: 10px 40px;
     display:inline-block;
     font-size: 20px;
-    padding: 20px 20px;
+    padding: 10px 10px;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(240, 5, 5);
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
-.c6 li:hover {
+.share li:hover {
     color: rgb(255, 0, 0);
     transition: .1s;
 }
